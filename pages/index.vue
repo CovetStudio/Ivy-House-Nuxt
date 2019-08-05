@@ -36,8 +36,8 @@ Connecting the right person to the right company is a privilege that Ivy House R
 
     <div class="container">
 
- <div class="columns">
-  <div class="column is-one-quarter">
+ <div class="columns is-desktop">
+  <div class="column is-one-quarter is-desktop">
       <img class="" src="~assets/brit.jpg" alt="IVY HOUSE">
   </div> 
 
@@ -58,8 +58,8 @@ Brittney Lapham started Ivy House Recruiting after working in professional recru
     <div class="container">
 
         <h2 class="subtitle has-text-centered ">INDUSTRIES</h2>
-
-<div class="columns is-vcentered has-text-centered is-gapless">
+<br/>
+<div class="columns is-vcentered has-text-centered has-background-white-ter	">
 
   <div class="column">
       Sales, Marketing & Corporate Services 
@@ -71,8 +71,6 @@ Healthcare
 Operations & Engineering
 </div>
 
-</div>
-<div class="columns is-vcentered has-text-centered">
 <div class="column">
 Automotive
 </div>
@@ -83,6 +81,7 @@ Legal
 Military Transition
 </div>
 </div>
+<br/>
 
 
 
@@ -122,10 +121,7 @@ export default {
 .gg {background: #21232B;}
 .gg .colorTop {display: none}
 .contact {background: #113F15}
-
-.is-gapless {padding-bottom: 0 !important}
-
-.columns {padding: 100px;}
+.ilovepaul {background: #fafafa}
 
 .title {
   font-family: 'lato', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
@@ -146,6 +142,8 @@ p {margin-bottom: 20px;font-family: "lato", sans-serif; font-weight: 400; font-s
   padding-top: 15px;
   padding-bottom: 0px;
 }
-
+@media (max-width: 850px) {
+  
+}
 
 </style>

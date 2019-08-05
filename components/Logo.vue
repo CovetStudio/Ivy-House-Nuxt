@@ -25,7 +25,9 @@
   position: relative;
   overflow: hidden;
   height: auto;
-  width: 405px;
+  max-width: 405px;
+  width: 90%;
+  padding: 0 5%;
   margin: 40px auto 120px auto
 }
 .colorTop {
